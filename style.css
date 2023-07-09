@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+body{
+    background: url(./bg-img.webp);
+    height: 100vh;
+    width: 100vw;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 1.5rem;
+}
+
+input{
+    margin: 2px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50vw;
+}
+
+button{
+    margin: 2px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 20vw;
+}
+
+#movieList{
+    margin: 10px;
+    padding: 10px;
+}
+
+img{
+    margin: 10px;
+    border: 10px solid rgb(101, 238, 238);
+    border-radius: 10px;
+}
